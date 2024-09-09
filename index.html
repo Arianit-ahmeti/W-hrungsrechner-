@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Währungsrechner</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<script src="script.js"></script>
+
+<div class="container">
+    <h1>Währungsrechner</h1>
+    <input type="number" id="amount" placeholder="Betrag eingeben">
+
+    <select id="fromCurrency">
+        <option value="EUR">Euro (EUR)</option>
+        <option value="USD">US-Dollar (USD)</option>
+        <option value="GBP">Pfund (GBP)</option>
+        <option value="JPY">Japanischer Yen (JPY)</option>
+        <option value="ALL"> Lek (ALL) </option>
+        <option value="CHF"> Schweizer Franken (CHF)</option>
+        <option value="CNY"> Renminbi Yuan (CNY) </option>
+        <option value="NZD">Neuseeländischer Dollar (NZD)</option>
+        <option value="RUB">Russischer Rubel (RUB)</option>
+        <option value="INR">Indische Rupie (INR)</option>
+        <option value="ZAR">Südafrikanischer Rand (ZAR)</option>
+        <option value="MXN">Mexikanischer Peso (MXN)</option>
+        <option value="SEK">Schwedische Krone (SEK)</option>
+        <option value="NOK">Norwegische Krone (NOK)</option>
+        <option value="DKK">Dänische Krone (DKK)</option>
+        <option value="SGD">Singapur-Dollar (SGD)</option>
+        <option value="HKD">Hongkong-Dollar (HKD)</option>
+        <option value="KRW">Südkoreanischer Won (KRW)</option>
+        <option value="BRL">Brasilianischer Real (BRL)</option>
+        <option value="TRY">Türkische Lira (TRY)</option>
+        <option value="IDR">Indonesische Rupiah (IDR)</option>
+
+    </select>
+
+    <select id="toCurrency">
+        <option value="USD">US-Dollar (USD)</option>
+        <option value="EUR">Euro (EUR)</option>
+        <option value="GBP">Pfund (GBP)</option>
+        <option value="JPY">Japanischer Yen (JPY)</option>
+        <option value="ALL"> Lek (ALL) </option>
+        <option value="CHF"> Schweizer Franken (CHF)</option>
+        <option value="CNY"> Renminbi Yuan (CNY) </option>
+        <option value="NZD">Neuseeländischer Dollar (NZD)</option>
+        <option value="RUB">Russischer Rubel (RUB)</option>
+        <option value="INR">Indische Rupie (INR)</option>
+        <option value="ZAR">Südafrikanischer Rand (ZAR)</option>
+        <option value="MXN">Mexikanischer Peso (MXN)</option>
+        <option value="SEK">Schwedische Krone (SEK)</option>
+        <option value="NOK">Norwegische Krone (NOK)</option>
+        <option value="DKK">Dänische Krone (DKK)</option>
+        <option value="SGD">Singapur-Dollar (SGD)</option>
+        <option value="HKD">Hongkong-Dollar (HKD)</option>
+        <option value="KRW">Südkoreanischer Won (KRW)</option>
+        <option value="BRL">Brasilianischer Real (BRL)</option>
+        <option value="TRY">Türkische Lira (TRY)</option>
+        <option value="IDR">Indonesische Rupiah (IDR)</option>
+
+    </select>
+
+    <button id="convert">Umrechnen</button>
+
+    <p id="result">Das Ergebnis wird hier angezeigt.</p>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
