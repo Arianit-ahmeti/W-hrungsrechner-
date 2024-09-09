@@ -1,0 +1,88 @@
+
+/* Hintergrund für den gesamten Body */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-image: url('images/Währungen_Lupe_1062x597.png'); /* Füge hier den Pfad zu deinem Bild ein */
+    background-size: cover; /* Hintergrundbild soll die gesamte Fläche ausfüllen */
+    background-position: center; /* Zentriere das Bild */
+    background-repeat: no-repeat; /* Verhindere Wiederholung des Bildes */
+    height: 100vh; /* Die volle Höhe des Viewports nutzen */
+    display: flex; /* Verwende Flexbox, um den Container zu zentrieren */
+    justify-content: center; /* Horizontal zentrieren */
+    align-items: center; /* Vertikal zentrieren */
+    margin: 0; /* Entfernt Standard-Abstände des Browsers */
+}
+
+/* Container (dein Block mit den Eingabefeldern) */
+.container {
+    background-color: white; /* Behalte den weißen Hintergrund bei */
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Behalte den Schatten bei */
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+/* Header (Überschrift) */
+h1 {
+    font-size: 24px;
+    color: #333;
+}
+
+/* Eingabefeld zentrieren */
+input[type="number"], input[type="text"] {
+    width: 100%;
+    max-width: 320px;
+    margin: 10px auto;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    display: block;
+}
+
+/* Dropdowns */
+select {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    display: block;
+}
+
+/* Button mit Hover-Effekt */
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Ergebnisstil */
+p#result {
+    font-size: 20px;
+    color: #007bff;
+    margin-top: 20px;
+}
+
+/* Responsives Design für Mobilgeräte */
+@media (max-width: 600px) {
+    .container {
+        padding: 20px;
+        width: 90%;
+    }
+}
